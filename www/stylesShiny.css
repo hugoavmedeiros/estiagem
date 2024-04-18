@@ -1,0 +1,110 @@
+/* HEADER */
+.main-header {
+  background-color: #5bc0de;
+  color: #fff;
+}
+
+.btn, .bttn {
+  background-color: #0077cc !important;
+  color: white;
+  border: white;
+  padding: 4px 8px; 
+  font-size: 11px; 
+}
+
+@media (max-width: 767px) {
+  .large-screen-only {
+    display: none !important;
+  }
+}
+
+/* SIDEBAR */
+
+.main-sidebar {
+  /* background-color: black !important; */
+  font-size: 10px !important;
+  margin-top: 0px;
+  height: 100vh;
+}
+
+.sidebar-menu li a { font-size: 16px; }
+
+.skin-blue .main-sidebar .sidebar-menu .treeview-menu>li>a {
+font-size: 14px; 
+}
+
+.skin-blue .main-sidebar .sidebar-menu .treeview-menu>li>i {
+font-size: 16px; 
+}
+
+.dropdown-box .selectize-dropdown {
+  left: 0 !important; 
+  right: auto !important;
+}
+
+.dropdown-shinyWidgets {
+  /* left: 0 !important; 
+  width: 200px; */
+  left: 50% !important;
+  transform: translateX(-50%);
+}
+
+.dropdown-menu.dropdown-shinyWidgets {
+  background-color: #3498db;
+  color: #ffffff; 
+}
+.dropdown-menu.dropdown-shinyWidgets li {
+  padding: 10px; 
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+/* CORPO */
+
+body {
+  font-size: 10px;
+  margin: 0px;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+body.skin-blue {
+  background-color: white !important;
+}
+
+body * {
+  font-family: Inter, sans-serif;
+}
+
+h5 {
+  color: white;
+  font-size: 1.3em; 
+  margin-bottom: 10px; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.custom-text {
+  background: #5bc0de;
+  border: 1px solid #5bc0de;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}

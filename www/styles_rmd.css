@@ -1,0 +1,165 @@
+/* SETAR SEÇÕES DO RMARKDOWN */
+/* setar barra de navegação (SUPERIOR) */
+.panel-auth {
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFF;
+  opacity: 1;
+  z-index: 99997;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.navbar-nav {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* setar barra lateral */
+.section.sidebar { /* a sintaxe precisa trazer o .section antes ou não funciona */
+  padding: 25px;
+  padding-top: 30px;
+  height: 100%;
+  background-color: #008cba;
+  color: white;
+  overflow: auto;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+/* imagem da barra lateral*/
+.sidebar img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* texto geral do selectize*/
+.selectize-input {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* texto exibido no dropdown*/
+.selectize-dropdown-content {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* value-box */
+.value-box { 
+  border: 2px solid white;
+  border-radius: 2px;
+  }
+
+.value-box p.value{
+  font-size: 34px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* SETAR TAGS GERAIS (HTML) */
+h1 {
+  text-align: left;
+  color: #008cba;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  background-color: #008cba;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  background-color: #008cba;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  background-color: #008cba;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h5 {
+  text-align: center;
+  color: white;
+  background-color: #008cba;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 60%;
+  margin: 0 auto; /* centraliza o objeto como um todo */
+}
+
+/* CLASSES PRÓPRIAS */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid #008cba;
+  border-radius: 5px;
+}
+
+.header-left {
+  flex: 1;
+  text-align: center;
+}
+
+.header-right {
+  flex: 1;
+  text-align: right;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Space cards evenly within the container */
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Space cards evenly within the container */
+}
+
+.card {
+  background-color: #5bc0de;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  margin: 5px;
+  width: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-content {
+  font-size: 1.0em;
+  color: white;;
+}

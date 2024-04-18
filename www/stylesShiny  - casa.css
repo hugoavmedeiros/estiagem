@@ -1,0 +1,82 @@
+body {
+  font-size: 10px;
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+body * {
+  font-family: Inter, sans-serif;
+}
+  
+.main-header {
+    background-color: #337ab7;
+    color: #fff;
+}
+  
+.main-sidebar {
+    /* background-color: black !important; */
+    font-size: 10px !important;
+}
+
+.skin-blue .main-sidebar .sidebar-menu .treeview-menu>li>a {
+  font-size: 16px; 
+}
+
+.skin-blue .main-sidebar .sidebar-menu .treeview-menu>li>i {
+  font-size: 16px; 
+}
+
+.btn, .bttn {
+  background-color: #0077cc !important;
+  color: white;
+  border: white;
+  padding: 5px 10px; /* Adjust padding to change button size */
+  font-size: 12px; /* Adjust font size */
+}
+
+h5 {
+  color: white; /* Text color */
+  font-size: 1.4em; /* Font size */
+  margin-bottom: 10px; /* Bottom margin */
+  font-weight: bold; /* Font weight */
+  text-align: center;
+  /* Add more styles as needed */
+}
+
+.dropdown-box .selectize-dropdown {
+  left: 0 !important; /* Adjust the left position */
+  right: auto !important;
+}
+
+.dropdown-shinyWidgets {
+  /* left: 0 !important; */
+  width: 200px; 
+  left: 50% !important;
+  transform: translateX(-50%);
+}
+
+.custom-text {
+  background: #337ab7;
+  border: 1px solid #337ab7;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
